@@ -1,0 +1,33 @@
+﻿{
+  "name": "AdventureWorksBot",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "endpoint",
+      "appId": "9b5b5225-b458-4bc6-b0ba-3c1c45fd3640",
+      "appPassword": "qp_Y{YR/ipMY9/(g6M)p#(29^hOAvm",
+      "endpoint": "https://AdventureWorksBotGAB19Munich.azurewebsites.net/api/messages",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "type": "luis",
+      "name": "AdventureWorksBotBot",
+      "appId": "5c1599c5-f5de-4f47-95fc-d8912759c14c",
+      "version": "0.1",
+      "authoringKey": "7d82662fe6b4485188c1909502798d7d",
+      "subscriptionKey": "7d82662fe6b4485188c1909502798d7d",
+      "region": "westus",
+      "id": "158"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
